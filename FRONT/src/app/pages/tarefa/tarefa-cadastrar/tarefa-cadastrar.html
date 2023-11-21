@@ -1,0 +1,13 @@
+<h1>Cadastro Tarefa</h1>
+
+<div>
+  <label>Titulo:</label>
+  <input class="texto" type="text" [(ngModel)]="titulo" />
+
+  <label>Descricao:</label>
+  <input class="texto" type="text" [(ngModel)]="descricao" />
+
+  <button class="botao" color="warn" mat-stroked-button (click)="cadastrar()">
+    Cadastrar tarefa
+  </button>
+</div>

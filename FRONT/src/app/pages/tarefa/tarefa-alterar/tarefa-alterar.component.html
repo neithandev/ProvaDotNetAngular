@@ -1,0 +1,10 @@
+<h1>Altera Tarefa</h1>
+
+<div>
+  <label class ="texto">Insira o Id da tarefa:</label>
+  <input placeholder="Ex. 1" matInput type="number" [(ngModel)]="tarefa.tarefaId" />
+
+  <button class="botao" color="warn" mat-stroked-button (click)="atualizarTarefa()">
+    Alterar status da tarefa
+  </button>
+</div>
